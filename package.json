@@ -19,7 +19,7 @@
     "file-loader": "^0.8.4",
     "gulp": "^3.9.0",
     "gulp-bg": "0.0.5",
-    "gulp-eslint": "^0.15.0",
+    "gulp-eslint": "^4.0.0",
     "gulp-util": "^3.0.6",
     "less": "^2.5.1",
     "less-loader": "^2.2.0",

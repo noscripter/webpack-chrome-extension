@@ -4,7 +4,9 @@
   "description": "Bootstrap playground for developing Chrome extensions with all new features like Webpack, Babel, React and almost everything you want.",
   "private": true,
   "scripts": {
-    "start": "gulp"
+    "start": "gulp",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "engines": {
     "iojs": ">= 2.2.x",
@@ -37,6 +39,8 @@
     "url-loader": "^0.5.6",
     "webpack": "1.10.1",
     "webpack-dev-server": "1.10.1",
-    "yargs": "^3.15.0"
-  }
+    "yargs": "^3.15.0",
+    "snyk": "^1.189.0"
+  },
+  "snyk": true
 }
